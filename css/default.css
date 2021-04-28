@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'digital-clock-font';
+    src:         url('../font/digital-7 (mono).ttf');
+}
+
+body {
+    margin:      0;
+    text-align:  center;
+    font-family: Verdana, sans-serif;
+}
+
+.timeDisplay {
+    font-size:        5em;
+    font-family:      'digital-clock-font', sans-serif;
+    background-color: black;
+    color:            darkred;
+    width: 20%;
+    margin: 0 auto 25px auto;
+    letter-spacing: 3px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+}
+
+button {
+    padding:               1em;
+    background-color:      black;
+    color:                 whitesmoke;
+    border:                none;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+}
+
+button:hover {
+    background-color: #6d6d6d;
+    color:            whitesmoke;
+}
+
+#laps {
+    padding-top: 1em;
+    width:       20%;
+    margin:      0 auto;
+}
+
+#laps div {
+    outline:    1px solid #939393;
+    padding:    0.5em;
+    text-align: left;
+}
+
+.vet {
+    font-weight:      bold;
+    background-color: #97db3d;
+}
